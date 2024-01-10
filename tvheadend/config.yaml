@@ -22,6 +22,7 @@ ports:
 ports_description:
   9981/tcp: TVH Web Interface
   9982/tcp: TVH HTSP
+host_network: true
 schema:
   init_commands:
   - str
